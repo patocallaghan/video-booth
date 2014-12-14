@@ -1,0 +1,6 @@
+<video autoplay></video>
+{{#if isRecording}}
+<button {{action 'stop'}}>Stop</button>
+{{else}}
+<button {{action 'record'}}>REC</button>
+{{/if}}
